@@ -1,0 +1,114 @@
+name: cafeapp
+description: "Restaurant uygulaması"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^9.1.1
+  flutter_svg: ^2.0.7
+  google_fonts: ^6.1.0
+  flutter_inappwebview: ^6.1.5
+  google_maps_flutter: ^2.12.0
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  cloud_firestore: 5.6.7
+  video_player: ^2.9.5
+  cupertino_icons: ^1.0.8
+  vibration: ^3.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.4.6
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - resimler/cafe_restaurant_bg.jpg
+    - resimler/coffebg2.png
+    - resimler/calisan2.jpg
+    - resimler/calisan3.jpg
+    - resimler/calisan4.jpg
+    - resimler/calisan5.jpg
+    - resimler/calisan6.jpg
+    - resimler/calisan7.jpg
+    - resimler/new1.jpg
+    - resimler/new2.jpg
+    - resimler/new3.jpg
+    - resimler/new4.jpg
+    - resimler/new5.jpg
+    - resimler/new6.jpg
+    - resimler/menu1.jpg
+    - resimler/menu2.jpg
+    - resimler/menu3.jpg
+    - resimler/menu4.jpg
+    - resimler/menu5.jpg
+    - resimler/menu6.jpg
+    - resimler/espresso.jpg
+    - resimler/americano.jpg
+    - resimler/capp.jpg
+    - resimler/latte.jpg
+    - resimler/mach.jpg
+    - resimler/avatar.jpg
+    - resimler/ikon3.png
+    - resimler/logo.png
+    - resimler/turk-kahvesi.jpg
+    - resimler/Americano.png
+    - resimler/Cappuccino.png
+    - resimler/DalgonaCoffee.png
+    - resimler/Latte.png
+    - resimler/Macchiato.png
+    - resimler/Mocha.png
+    - resimler/AeroPress.png
+    - resimler/Chemex.png
+    - resimler/ClassicDrip.png
+    - resimler/ColdBrew.png
+    - resimler/FrenchPress.png
+    - resimler/PourOver.png
+    - resimler/Ethipoin.png
+    - resimler/VietnameseEggCoffee.png
+    - resimler/ArapKahvesi.png
+    - resimler/BosnaKahvesi.png
+    - resimler/GreekCoffee.png
+    - resimler/TürkKahvesi.png
+    - resimler/EspressoConPanna.png
+    - resimler/NitroColdBrew.png
+    - resimler/FlatWhite.png
+    - resimler/Ristretto.png
+    - resimler/Cortado.png
+    - resimler/DalgonaCoffeee.png
+    - resimler/NitroColdBrew2.png
+    - resimler/Frappe.png
+    - resimler/Affogato.png
+    - resimler/ColdBrew2.png
+    - resimler/IcedAmericano.png
+    - resimler/IcedMocha.png
+    - resimler/Cheesecake.png
+    - resimler/Tiramisu.png
+    - resimler/Macaron.png
+    - resimler/ÇikolatalıFondant.png
+    - resimler/Profiterol.png
+    - resimler/tanitim.mp4
+    - resimler/appicon.png
+
+flutter_native_splash:
+  color: "#B28355"
+  image: resimler/ikon3.png
+  android: true
+  ios: true
+  fullscreen: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "resimler/appicon.png"
